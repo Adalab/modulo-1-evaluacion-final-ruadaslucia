@@ -1,56 +1,29 @@
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.section1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: black;
-  width: 100%;
-  height: 0;
-}
-.section1 div {
-  transform: translateY(-280px);
-}
-.enjoy {
-  color: $snorlax;
+.section3 {
+  background-color: $orange;
   font-family: $font;
-  font-size: 24px;
-  font-weight: 600;
-}
-.button1 {
-  background-color: $snorlax;
   color: $white;
-  padding: 12px 24px 12px 24px;
-  text-decoration: none;
-  font-weight: 300;
-  font-size: 16px;
-}
-.section2Title {
-  width: fit-content;
-  font-family: $font;
-  color: $snorlax;
-  font-weight: 600;
-  text-align: center;
-}
-.section2 {
-  background-color: $beish;
-  width: 100%;
+  text-decoration-style: none;
+  height: 352px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-}
-.article {
-  width: 208px;
-}
-
-@media all and(min-width:768px) {
-}
-@media all and(min-width:1200px) {
+  text-align: center;
+  &__truck {
+    height: 98px;
+    width: 112px;
+  }
+  &__title {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  &__subtitle {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  &__button1 {
+    font-size: 16px;
+    font-weight: 600;
+    color: $white;
+  }
 }

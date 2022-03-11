@@ -10,32 +10,31 @@
       href="https://fonts.googleapis.com/css2?family=Hubballi&family=Poppins:wght@400;600&family=Roboto+Slab:wght@300;400&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.jpg" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <title>Evaluation module 1</title>
   </head>
   <body>
     <header class="header">
 
-        <nav class="header__container">
+        <nav class="container">
             <a
-            class="header__container--hamburguer"
+            class="container__hamburguer"
             href="https://adalab.es/"
             title="Click here to Adalab's website"
             ><img src="./assets/images/bars-solid.svg" alt="hamburguers menu icon" />
             </a>
         </nav>
 
-        <div class="header__logo">
+        <div class="container__logo">
           <img
-            class="header__logo--item"
+            class="container__logo--image"
             src="./assets/images/logo.png"
             alt="open spaces logo"
           />
         </div>
       
-      <nav class="header__menu">
-        <ul class="header__menu--items">
+      <nav class="container__menu">
+        <ul class="container__menu--items">
           <li<a href="https://adalab.es/" title="adalab.es"></a>Productos</li>
           <li<a href="https://adalab.es/" title="adalab.es"></a>Colecciones</li>
           <li<a href="https://adalab.es/" title="adalab.es"></a>Tiendas</li>
@@ -45,13 +44,9 @@
     </header>
 
     <main class="main">
-      <section class="section1">
-        <article class="enjoy">
-          <div>
-            <h1>Disfruta creando espacios</h1>
-            <a class="button1" href="">Comprar ahora</a>
-        </div>
-        </article>
+      <section class="section1">    
+            <h1 class="section1__title">Disfruta creando espacios</h1>
+            <a class="section1__button1" href="">Comprar ahora</a>    
       </section>
 
       <section class="section2">
@@ -84,13 +79,16 @@
       </section>
 
       <section class="section3">
-        <article class="orange">
-          <img src="./assets/images/go_6.png" alt="dibujo camión en marcha"/>
-          <h2>Envío gratis garantizado</h2>
-          <p>Envío gratis en compras desde 100</p>
-          <a class="button2" href="">Comprar ahora</a>
-        </article>
+        <img
+          class="section3__truck"
+          src="./assets/images/truck.png"
+          alt="truck on the job"
+        />
+        <h2 class="section3__title">Envío gratis garantizado</h2>
+        <h2 class="section3__subtitle">Envio gratis en compras desde 100</h2>
+        <a class="section3__button1" href="">Comprar ahora</a>
       </section>
+
 
       <section class="section4">
         <article class="creating">
@@ -105,34 +103,47 @@
     </main>
 
     <footer class="footer">
-      <article class="footer__shop">
-        <title class="footer__shop--title">tienda</title>
+      <nav class="footer__shop">
+        <h2 class="footer__shop--title">Tienda</h2>
         <ul>
-          <li>productos</li>
-          <li>cajoneras</li>
-          <li>para toda la casa</li>
-          <li>habitaciones</li>
+          <li>
+            <a href="https://.adalab.es"></a>Productos
+          </li>
+          <li><a href="https://adalab.es"></a>Cajoneras</li>
+          <li><a href="https://adalab.es"></a>Para toda la casa</li>
+          <li><a href="https://adalab.es"></a>Habitaciones</li>
         </ul>
-      </article>
 
-      <article class="footer__we">
-        <title class="footer__we--title">nosotros</title>
+      <nav class="footer__we">
+        <h2 class="footer__we--title">Nosotros</h2>
         <ul>
-          <li>nuestra guia</li>
-          <li>nuestro diseño</li>
-          <li>nuestra historia</li>
-          <li>ayuda</li>
+          <li><a href="https://adalab.es/"></a>Nuestra guia</li>
+          <li><a href="https://adalab.es/"></a>Nuestro diseño</li>
+          <li><a href="https://adalab.es/"></a>Nuestra historia</li>
+          <li><a href="https://adalab.es/"></a>Ayuda</li>
         </ul>
-      </article>
+      </nav>
 
-      <article class="footer__contact">
-        <title class="footer__contact--title">contacto</title>
+      <nav class="footer__contact">
+        <h2 class="footer__contact--title">Contacto</h2>
         <ul>
           <li>ayuda@openspaces.com</li>
-          <li>socios</li>
-          <li>rrss</li>
+          <li>Socios</li>
         </ul>
-      </article>
+        <div class="rrss">
+          <a class="rrss__iconorrss" href="https://adalab.es/"
+            ><img src="./assets/images/LinkedIn.png" alt="linkdin icon"
+          /></a>
+
+          <a class="rrss__iconorrss" href="https://adalab.es/"
+            ><img src="./assets/images/instagram.png" alt="instagram icon"
+          /></a>
+
+          <a class="rrss__iconorrss" href="https://adalab.es/"
+            ><img src="./assets/images/twitter.png" alt="twitter icon"
+          /></a>
+        </div>
+      </nav>
     </footer>
 
   </body>
