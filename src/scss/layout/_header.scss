@@ -1,47 +1,68 @@
-.headerContainer {
+.header {
+  max-width: 100%;
   height: 100vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between 25px;
+  position: sticky;
+  top: center;
   background-image: url(../images/header.jpg);
-  background-position: top;
+  background-position-x: center;
   background-size: cover;
-}
-.hamburguer {
-  width: 24px;
-  height: 24px;
-  position: fixed;
-  top: 55px;
-  left: 33px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.logo {
-  height: 100px;
-  width: 100%;
-  margin-top: 19px;
+  background-attachment: fixed;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.menuContainer {
-  display: none;
-}
+  justify-content: space-between;
 
-@media all and (min-width: $tablet) {
-  .menuContainer {
+  &__container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &--hamburguer {
+      width: 24px;
+      height: 24px;
+      position: sticky;
+      top: 55px;
+      left: 33px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  &__logo {
+    height: 100px;
+    width: 100%;
+    margin-top: 19px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  &__menu {
     display: none;
   }
 }
 
-@media all and (min-width: $desktop) {
-  .menuContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    text-align: start;
+@media all and (min-width: 768px) {
+  .header {
+    &__container {
+      &--logo {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  @media all and (min-width: $desktop) {
+    .header {
+      &__container {
+        &--hamburguer {
+          display: none;
+        }
+      }
+      &__menu {
+        display: flex;
+        flex-direction: row;
+      }
+    }
   }
 }
