@@ -140,6 +140,13 @@
   justify-content: center;
   align-items: center;
 }
+.section5__bathroom {
+  display: inline-block;
+
+  img {
+    width: 100%;
+  }
+}
 
 @media (min-width: 768px) {
   .module1 {
