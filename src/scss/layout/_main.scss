@@ -42,12 +42,19 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
   }
   &__gridContainer {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 3fr;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
     &--article {
       width: 250px;
     }

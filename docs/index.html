@@ -17,11 +17,11 @@
     <header class="header">
 
         <nav class="container">
-            <a
+            <a 
             class="container__hamburguer"
             href="https://adalab.es/"
             title="Click here to Adalab's website"
-            ><img src="./assets/images/bars-solid.svg" alt="hamburguers menu icon"/>
+            ><img src="./assets/images/hamburger.png" alt="hamburguer menu icon"/>
             </a>
             <ul class="container__menu">
               <li<a href="" title="adalab.es"></a>Productos</li>
@@ -29,7 +29,9 @@
               <li<a href="" title="adalab.es"></a>Tiendas</li>
               <li<a href="" title="adalab.es"></a>Inicio</li>
             </ul>
-            <a class="container__logo--image"><img        
+            <a 
+            id="header" 
+            class="container__logo--image"><img        
             src="./assets/images/logo.png"
             alt="open spaces logo"
           /></a>
@@ -49,10 +51,9 @@
           <!--clase para grid-->
           <h2>Volverse organizado se siente mejor con OPEN SPACES</h2>
         </div>
-
+        <!--2ªclase para grid-->
         <div class="module2__gridContainer">
           <article class="module2__gridContainer--article">
-            <!--2ªclase para grid-->
             <img src="./assets/images/icon_1.png" alt="dibujo mesa decorada" />
             <h2>Lo que necesitas</h2>
             <p>Una linea de productos diseñados para todos tus espacios</p>
@@ -112,22 +113,26 @@
     <footer class="footer">
       <nav class="footer__shop">
         <h2 class="footer__shop--title">Tienda</h2>
-        <ul>
-          <li>
-            <a href="https://.adalab.es"></a>Productos
-          </li>
-          <li><a href="https://adalab.es"></a>Cajoneras</li>
-          <li><a href="https://adalab.es"></a>Para toda la casa</li>
-          <li><a href="https://adalab.es"></a>Habitaciones</li>
-        </ul>
+        <ul class="footer__shop--list">
+          <li><a href="https://adalab.es">Productos</a></li>
 
+          <li><a href="https://adalab.es">Cajoneras</a></li>
+
+          <li><a href="https://adalab.es">Para toda la casa</a></li>
+
+          <li><a href="https://adalab.es">Habitaciones</a></li>
+        </ul>
+      </nav>
       <nav class="footer__we">
         <h2 class="footer__we--title">Nosotros</h2>
-        <ul>
-          <li><a href="https://adalab.es/"></a>Nuestra guia</li>
-          <li><a href="https://adalab.es/"></a>Nuestro diseño</li>
-          <li><a href="https://adalab.es/"></a>Nuestra historia</li>
-          <li><a href="https://adalab.es/"></a>Ayuda</li>
+        <ul class="footer__we--list">
+          <li><a href="https://adalab.es">Nuestra guia</a></li>
+
+          <li><a href="https://adalab.es">Nuestro diseño</a></li>
+
+          <li><a href="https://adalab.es">Nuestra historia</a></li>
+
+          <li><a href="https://adalab.es">Ayuda</a></li>
         </ul>
       </nav>
 
@@ -135,7 +140,7 @@
         <h2 class="footer__contact--title">Contacto</h2>
         <ul>
           <li>ayuda@openspaces.com</li>
-          <li>Socios</li>
+          <li><a href="https://adalab.es">Socios</a></li>
         </ul>
         <div class="rrss">
           <a class="rrss__iconorrss" href="https://adalab.es/"
@@ -150,6 +155,9 @@
             ><img src="./assets/images/twitter.png" alt="twitter icon"
           /></a>
         </div>
+      </nav>
+      <nav>
+        <a href="#header" class="arrow"><img src="./assets/images/flecha.png" /></a>
       </nav>
     </footer>
 

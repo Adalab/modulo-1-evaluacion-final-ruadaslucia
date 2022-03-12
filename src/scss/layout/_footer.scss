@@ -11,13 +11,12 @@
   font-family: $font;
   padding-top: 15px;
   padding-bottom: 30px;
-  list-style: none;
-  color: $lightGreen;
   &__shop {
     font-size: 20px;
     padding-bottom: 10px;
     padding-right: 80px;
   }
+
   &__we {
     font-size: 20px;
     padding-bottom: 10px;
@@ -38,18 +37,43 @@
   &__iconorrss img {
     width: 24px;
     height: 24px;
+    margin-right: 15px;
   }
 }
 
 .footer__shop li {
   list-style: none;
+  text-decoration: none;
   font-weight: 300;
+}
+.footer__shop a {
+  text-decoration: none;
+  color: $lightGreen;
 }
 .footer__we li {
   list-style: none;
+  text-decoration: none;
   font-weight: 300;
+}
+.footer__we a {
+  text-decoration: none;
+  color: $lightGreen;
 }
 .footer__contact li {
   list-style: none;
   font-weight: 300;
+}
+.footer__contact a {
+  text-decoration: none;
+  color: $lightGreen;
+}
+
+.arrow {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  transform: translateY(-60px);
+  margin-left: 500px;
 }
