@@ -155,6 +155,7 @@
     .module2 {
       &__gridContainer {
         margin-left: 250px;
+        transform: translateX(-40px);
       }
       &__title {
         margin-left: 550px;
@@ -162,6 +163,7 @@
       &__title h2 {
         width: 799px;
         font-size: 36px;
+        transform: translateX(-190px);
       }
     }
     .module4 {
