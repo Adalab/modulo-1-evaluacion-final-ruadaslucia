@@ -66,7 +66,7 @@
     color: $white;
   }
 }
-.section4 {
+.module4 {
   font-family: $font;
   display: flex;
   flex-direction: column;
@@ -82,8 +82,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 27px;
-    padding-right: 27px;
+
     text-align: center;
     &--button3 {
       background-color: $snorlax;
@@ -96,12 +95,15 @@
     }
   }
 }
-.section4__first h2 {
+.module4__first h2 {
   font-size: 24px;
+  padding-left: 27px;
+  padding-right: 27px;
   margin-bottom: 15px;
 }
-.section4__first p {
+.module4__first p {
   margin-bottom: 25px;
+  font-size: 14px;
 }
 
 .section5__bathroom {
@@ -144,18 +146,27 @@
       margin-top: 80px;
     }
   }
-}
-@media (min-width: 1200px) {
-  .module2 {
-    &__gridContainer {
-      margin-left: 250px;
+  .module4 {
+    &__first h2 {
+      font-size: 30px;
     }
-    &__title {
-      margin-left: 550px;
+  }
+  @media (min-width: 1200px) {
+    .module2 {
+      &__gridContainer {
+        margin-left: 250px;
+      }
+      &__title {
+        margin-left: 550px;
+      }
+      &__title h2 {
+        width: 799px;
+        font-size: 36px;
+      }
     }
-    &__title h2 {
-      width: 799px;
-      font-size: 36px;
+    .module4 {
+      flex-direction: row;
+      justify-content: center;
     }
   }
 }
