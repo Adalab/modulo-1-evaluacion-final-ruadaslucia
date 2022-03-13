@@ -82,20 +82,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 27px;
+    padding-right: 27px;
+    text-align: center;
     &--button3 {
-      font-weight: 600;
-      text-decoration: none;
       background-color: $snorlax;
       color: $white;
-      padding: 5px;
+      font-size: 16px;
+      text-decoration: none;
       width: 176px;
-      height: 48px;
-      align-items: center;
-      text-transform: capitalize;
-      text-align: center;
-      margin-top: 5px;
+      padding: 12px 24px 12px 24px;
+      margin-top: 24px;
     }
   }
+}
+.section4__first h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.section4__first p {
+  margin-bottom: 25px;
 }
 
 .section5__bathroom {
