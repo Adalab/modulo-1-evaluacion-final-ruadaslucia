@@ -1,5 +1,5 @@
 .module2 {
-  background-color: $beish;
+  background-color: $cream;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -7,7 +7,6 @@
   text-align: center;
   font-family: $font;
   color: $snorlax;
-
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 2fr;
@@ -89,7 +88,7 @@
   &__first {
     height: 339px;
     width: 100%;
-    background-color: $beish;
+    background-color: $cream;
     color: $snorlax;
     display: flex;
     flex-direction: column;
