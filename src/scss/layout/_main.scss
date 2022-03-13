@@ -110,16 +110,16 @@
     }
   }
 }
-.section5 {
-  position: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
+
 .section5__bathroom {
   display: inline-block;
 
+  img {
+    width: 100%;
+  }
+}
+.section5__bathroom {
+  display: flex;
   img {
     width: 100%;
   }

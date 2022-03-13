@@ -16,17 +16,19 @@
   justify-content: space-between;
 
   &__hamburguer {
-    width: 24px;
-    height: 24px;
+    width: 40px;
+    height: 40px;
     position: fixed;
     top: 55px;
     left: 33px;
   }
+  &__hamburguer img {
+    width: 24px;
+    height: 24px;
+  }
 }
-.container__menu {
-  display: none;
-}
-.container__logo--image {
+
+.container__logo {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -34,30 +36,74 @@
   align-items: center;
   margin-top: 19px;
 }
-.module1 h1 {
+.container__logo img {
+  width: 213px;
+  height: 96px;
+}
+
+.module1 {
   font-family: $font;
-}
-
-.section5__bathroom {
+  font-size: 24px;
   display: flex;
-  img {
-    width: 100%;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  bottom: -440px;
+  &__h1 {
+    text-align: center;
+    color: $snorlax;
+  }
+  &__button1 {
+    background-color: $snorlax;
+    color: $white;
+    font-size: 16px;
+    text-decoration: none;
+    width: 176px;
+    padding: 12px 24px 12px 24px;
+    margin-top: 24px;
   }
 }
-
-@media (min-width: 1200px) {
+.container__menu {
+  display: none;
+}
+@media (min-width: 768px) {
   .container__hamburguer {
-    display: none;
-  }
-  .container__menu {
-    width: 40%;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
+    &__hamburguer {
+      top: 75px;
+      left: 82px;
+    }
   }
-  .container__logo--image {
-    width: 60%;
-    justify-content: flex-start;
+}
+@media (min-width: 1200px) {
+  .header {
+    padding-left: 280px;
+  }
+  .container {
+    &__hamburguer {
+      display: none;
+    }
+    &__menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      width: 100%;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+    &__menu li {
+      margin-right: 30px;
+    }
+    &__logo {
+      justify-content: flex-start;
+    }
+  }
+  .module1 {
+    bottom: -230px;
+    left: -200px;
+    &--h1 {
+      text-align: start;
+    }
   }
 }
