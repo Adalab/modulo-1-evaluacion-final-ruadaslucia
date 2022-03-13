@@ -1,81 +1,62 @@
 .footer {
-  position: relative;
   width: 100%;
-  height: 545px;
+  height: fit-content;
+  background-color: $snorlax;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  text-align: start;
-  background-color: $snorlax;
+  align-items: flex-start;
   color: $lightGreen;
   font-family: $font;
-  padding-top: 15px;
-  padding-bottom: 30px;
   &__shop {
-    font-size: 20px;
-    padding-bottom: 10px;
-    padding-right: 80px;
+    margin-left: 100px;
+    padding: 20px;
   }
-
   &__we {
-    font-size: 20px;
-    padding-bottom: 10px;
-    padding-right: 100px;
+    margin-left: 100px;
+    padding: 20px;
   }
   &__contact {
-    font-size: 20px;
-    padding-bottom: 10px;
+    margin-left: 100px;
+    padding: 20px;
   }
 }
 
-.rrss {
-  padding-top: 15px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  list-style: none;
-  &__iconorrss img {
-    width: 24px;
-    height: 24px;
-    margin-right: 15px;
-  }
-}
-
-.footer__shop li {
-  list-style: none;
-  text-decoration: none;
-  font-weight: 300;
-}
-.footer__shop a {
-  text-decoration: none;
+.footer__shop--list a {
   color: $lightGreen;
+  text-decoration: none;
 }
-.footer__we li {
+.footer__shop--list li {
   list-style: none;
-  text-decoration: none;
-  font-weight: 300;
 }
-.footer__we a {
-  text-decoration: none;
+.footer__we--list a {
   color: $lightGreen;
+  text-decoration: none;
+}
+.footer__we--list li {
+  list-style: none;
+}
+.footer__contact a {
+  color: $lightGreen;
+  text-decoration: none;
 }
 .footer__contact li {
   list-style: none;
-  font-weight: 300;
 }
-.footer__contact a {
-  text-decoration: none;
-  color: $lightGreen;
+.rrss {
+  margin-left: 100px;
+  padding: 20px;
 }
-
+.rrss img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 30px;
+}
 .arrow {
-  position: absolute;
-  bottom: 20px;
-  right: 15px;
-  display: block;
-
-  img {
-    width: 50px;
-  }
+  position: relative;
+  bottom: 30px;
+  left: 320px;
+}
+.arrow img {
+  width: 40px;
+  height: 40px;
 }
