@@ -43,8 +43,7 @@
   list-style: none;
 }
 .rrss {
-  margin-left: 100px;
-  padding: 20px;
+  margin-top: 20px;
 }
 .rrss img {
   width: 30px;
@@ -54,9 +53,37 @@
 .arrow {
   position: relative;
   bottom: 30px;
-  left: 320px;
+  left: 300px;
 }
 .arrow img {
   width: 40px;
   height: 40px;
+}
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    &__shop {
+      margin-left: 100px;
+      padding: 20px;
+    }
+    &__we {
+      margin-left: 20px;
+      padding: 20px;
+    }
+    &__contact {
+      margin-left: 20px;
+      padding: 20px;
+    }
+  }
+  .arrow {
+    position: relative;
+    bottom: -120px;
+    left: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
 }
