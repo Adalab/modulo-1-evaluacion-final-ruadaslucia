@@ -54,6 +54,8 @@
   position: relative;
   bottom: 30px;
   left: 300px;
+  animation: backInUp;
+  animation-duration: 2s;
 }
 .arrow img {
   width: 40px;
@@ -86,4 +88,11 @@
 }
 
 @media (min-width: 1200px) {
+  .footer {
+    justify-content: space-between;
+  }
+  .arrow {
+    bottom: -120px;
+    left: -100px;
+  }
 }
