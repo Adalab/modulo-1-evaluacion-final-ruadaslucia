@@ -61,9 +61,18 @@
     font-weight: 300;
   }
   &__button1 {
+    background-color: transparent;
+    border: none;
     font-size: 16px;
     font-weight: 600;
     color: $white;
+  }
+
+  &__button1 a {
+    color: $white;
+  }
+  &__button1 a:hover {
+    color: $snorlax;
   }
 }
 .module4 {
