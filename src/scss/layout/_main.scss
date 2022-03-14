@@ -123,13 +123,13 @@
 
 .section5__bathroom {
   display: flex;
+  flex-grow: 1;
 
   img {
     width: 100%;
   }
 }
 .section5__bathroom {
-  display: flex;
   img {
     width: 100%;
   }
@@ -148,6 +148,7 @@
       text-align: left;
     }
   }
+
   .module2 {
     grid-template-rows: 1fr 1fr;
     height: 600px;
