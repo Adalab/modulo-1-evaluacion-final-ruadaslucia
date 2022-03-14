@@ -7,18 +7,8 @@
   align-items: flex-start;
   color: $lightGreen;
   font-family: $font;
-  &__shop {
-    margin-left: 100px;
-    padding: 20px;
-  }
-  &__we {
-    margin-left: 100px;
-    padding: 20px;
-  }
-  &__contact {
-    margin-left: 100px;
-    padding: 20px;
-  }
+  padding-left: 100px;
+  padding-top: 40px;
 }
 
 .footer__shop--list a {
@@ -52,8 +42,8 @@
 }
 .arrow {
   position: relative;
-  bottom: 30px;
-  left: 300px;
+  left: 200px;
+  bottom: 73px;
   animation: backInUp;
   animation-duration: 2s;
 }
@@ -82,7 +72,7 @@
   }
   .arrow {
     position: relative;
-    bottom: -120px;
+    bottom: -155px;
     left: 20px;
   }
 }

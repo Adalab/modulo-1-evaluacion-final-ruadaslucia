@@ -82,9 +82,11 @@
       margin-top: 39px;
       position: center;
     }
-    .module1 {
-      justify-items: flex-start;
-    }
+  }
+  .module1 {
+    width: fit-content;
+    text-align: center;
+    padding-left: 141px;
   }
 }
 @media (min-width: 1200px) {
@@ -115,7 +117,7 @@
     }
   }
   .module1 {
-    margin-left: 280px;
+    margin-left: 180px;
     align-items: flex-start;
   }
 }
