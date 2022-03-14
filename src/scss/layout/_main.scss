@@ -86,14 +86,17 @@
     text-align: center;
     &--button3 {
       background-color: $snorlax;
-      color: $white;
+      border: none;
       font-size: 16px;
-      text-decoration: none;
       width: 176px;
       padding: 12px 24px 12px 24px;
       margin-top: 24px;
       animation: jackInTheBox;
       animation-duration: 2s;
+    }
+    &--button3 a {
+      text-decoration: none;
+      color: $white;
     }
   }
 }

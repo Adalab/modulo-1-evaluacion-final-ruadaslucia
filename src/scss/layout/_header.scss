@@ -57,14 +57,17 @@
   }
   &__button1 {
     background-color: $snorlax;
-    color: $white;
+    border: none;
     font-size: 16px;
-    text-decoration: none;
     width: 176px;
     padding: 12px 24px 12px 24px;
     margin-top: 24px;
     animation: jackInTheBox;
     animation-duration: 2s;
+  }
+  &__button1 a {
+    text-decoration: none;
+    color: $white;
   }
 }
 .container__menu {
