@@ -9,29 +9,33 @@
   font-family: $font;
   padding-left: 100px;
   padding-top: 40px;
+  &__shop {
+    &--list a {
+      color: $lightGreen;
+      text-decoration: none;
+    }
+    &--list li {
+      list-style: none;
+    }
+  }
+  &__we {
+    &--list a {
+      color: $lightGreen;
+      text-decoration: none;
+    }
+    &--list li {
+      list-style: none;
+    }
+  }
+  &__contact a {
+    color: $lightGreen;
+    text-decoration: none;
+  }
+  &__contact li {
+    list-style: none;
+  }
 }
 
-.footer__shop--list a {
-  color: $lightGreen;
-  text-decoration: none;
-}
-.footer__shop--list li {
-  list-style: none;
-}
-.footer__we--list a {
-  color: $lightGreen;
-  text-decoration: none;
-}
-.footer__we--list li {
-  list-style: none;
-}
-.footer__contact a {
-  color: $lightGreen;
-  text-decoration: none;
-}
-.footer__contact li {
-  list-style: none;
-}
 .rrss {
   margin-top: 20px;
 }
@@ -56,6 +60,7 @@
     flex-direction: row;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 0px;
 
     &__shop {
       margin-left: 100px;
@@ -72,13 +77,14 @@
   }
   .arrow {
     position: relative;
-    bottom: -155px;
+    bottom: -122px;
     left: 20px;
   }
 }
 
 @media (min-width: 1200px) {
   .footer {
+    padding-left: 0;
     justify-content: space-between;
   }
   .arrow {
